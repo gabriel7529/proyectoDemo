@@ -5,4 +5,5 @@ function convertirPalabra(){
   for (let i=word.length; i>0; i--){
    newWord += word.substring(i-1,i);
   }
+  document.getElementById("neWord").innerHTML = newWord;
 }
